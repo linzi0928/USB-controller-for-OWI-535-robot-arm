@@ -10,6 +10,8 @@ This project is a simple 6-way motor controller, which uses 5V power supply. It 
 * Driver chip: L298N  
 * Serial chip: CH340C  
 
+![Main Board](https://github.com/linzi0928/USB-controller-for-OWI-535-robot-arm/blob/master/image_controller.jpg)  
+
 Serial-Communication-Protocol
 ===========
 
