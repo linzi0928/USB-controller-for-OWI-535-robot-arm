@@ -4,7 +4,9 @@
 
 APPENDIX:Serial-Communication-Protocol
 ===========
+
 Baud rate:115200.  
+
 1.G0 Motor-Control
 -------------
 **G0 1MXXX 2MXXX 3MXXX 4MXXX 5MXXX 6MXXX FVYYY\n**  
@@ -13,9 +15,9 @@ YYY speed range: 1 ~ 100
 XXX time value range (32-bit integer): -2147483648-2147483647 (not acceptable 0)  
 It can be omitted directly when there is a motor that does not need to be set, but the speed parameter cannot be omitted.  
 example:    
-** G0 1M10000 2M10000 3M10000 4M10000 5M-10000 6M-10000 FV50 \ n **  
+**G0 1M10000 2M10000 3M10000 4M10000 5M-10000 6M-10000 FV50 \n**  
 Means that motors 1, 2, 3, and 4 rotate at 50% speed in the forward direction for 10000ms(10 seconds), and motors 5 and 6 rotate at 50% speed in the opposite direction for 10000ms(10 seconds)  
-G0 1M10000 2M10000 FV50 \n  
+**G0 1M10000 2M10000 FV50 \n**  
 Means that motors 1 and 2 are rotating in the forward direction at 50% for 10000ms (10 seconds), and the remaining motor tasks are unchanged.  
 Return value: OK \n  
 
