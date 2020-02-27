@@ -1,9 +1,10 @@
-# Serial-Port-Motor-Controller
-串口直流电机控制器
+# USB-controller-for-OWI-535-robot-arm
+串口直流电机控制器（可用于OWI-535机械臂）
 ================
 
 ![Robot Arm Using this controller](https://github.com/linzi0928/Serial-Port-Motor-Controller/blob/master/image.jpg)  
-This project is a simple 6-way motor controller, which uses 5V power supply. It can control 6 channels by using serial port. The open source materials include PCB files, schematic diagrams and driver program in Keil Project(v5), which can be used for driving of some small robotic arms using low-voltage DC motors. In addition, a single LED output can also be controlled through the serial port. The jumper cap can be combined to supply power, that is, the MicroUSB power supply motor is directly used. If the jumper cap is open, you need to plug a 5V power supply into the DC port.  
+<video src="https://github.com/linzi0928/USB-controller-for-OWI-535-robot-arm/blob/master/demo_video.mp4" controls="controls" width="500" height="300">your browser not suppurted this video</video>  
+This project is a simple 6-way motor controller, which uses 5V power supply. It can be used to control OWI535 robot arm. It can control 6 channels by using serial port. The open source materials include PCB files, schematic diagrams and driver program in Keil Project(v5), which can be used for driving of some small robotic arms using low-voltage DC motors. In addition, a single LED output can also be controlled through the serial port. The jumper cap can be combined to supply power, that is, the MicroUSB power supply motor is directly used. If the jumper cap is open, you need to plug a 5V power supply into the DC port.  
 
 **Hardware Configuration:**  
 * Master: STM32F103C8T6  
